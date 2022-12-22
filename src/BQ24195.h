@@ -125,7 +125,7 @@ class PMICClass {
     bool enableOTG(void);
     bool disableOTG(void);
 
-  private:
+  public:
     byte getVersion();
     byte readOpControlRegister();
     byte readChargeTermRegister();
